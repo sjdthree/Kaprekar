@@ -6,10 +6,15 @@ https://twitter.com/fermatslibrary/status/1192083979710713858
 
 An example: 45 is a Kaprekar number, because 
 45² = 2025 and 
+
 20 + 25 = 45
+
 9^2
+
 45^2
+
 297^2
+
 7777^2
 
 first some simple algebra:
@@ -17,63 +22,92 @@ Implemented by adjusting digits, so seeking an x of 3 digits, the sum of two thr
 Some implementations use this split as arbitrary.
 
 x^2 = 1000y+z
+
 x = y+z
+
 where y and z are three digits
+
 and therefore x is at least 3 digits or more
 
 x^Z2 - x = 999y
+
 x range: 100 - 1999 -- that is max range if y & z are 3 digits
 
 SAMPLE OUTPUT:
- from 100 to 100,000,000
+
+from 100 to 100,000,000
 
 
 winner:  297
+
 x^2 =  88209 88 209
+
 Check:  297 297
 
 winner:  703
+
 x^2 =  494209 494 209
+
 Check:  703 703
 
 winner:  999
+
 x^2 =  998001 998 1
+
 Check:  999 999
 
 winner:  2223
+
 x^2 =  4941729 494 1729
+
 Check:  2223 2223
 
 winner:  2728
+
 x^2 =  7441984 744 1984
+
 Check:  2728 2728
 
 winner:  4950
+
 x^2 =  24502500 2450 2500
+
 Check:  4950 4950
 
 winner:  5050
+
 x^2 =  25502500 2550 2500
+
 Check:  5050 5050
 
 winner:  7272
+
 x^2 =  52881984 5288 1984
+
 Check:  7272 7272
 
 winner:  7777
+
 x^2 =  60481729 6048 1729
+
 Check:  7777 7777
 
 winner:  9999
+
 x^2 =  99980001 9998 1
+
 Check:  9999 9999
 
 winner:  17344
+
 x^2 =  300814336 3008 14336
+
 Check:  17344 17344
 
 winner:  22222
+
 x^2 =  493817284 4938 17284
+
 Check:  22222 22222
 
 winner:  77778
